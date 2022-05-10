@@ -7,6 +7,9 @@ import streamlit as st
 st.set_page_config(page_title="Face Detection with Age and Gender Prediction", layout="wide")
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
+st.title("Welcome! :D")
+st.subheader("If one mobile device, please pull the sidebar by clicking on the arrow on top left to see the available options.")
+
 def get_img_and_predict(img):
   crop_faces = []
   age_list = []
