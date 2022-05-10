@@ -38,7 +38,7 @@ In this project I'll be using the UTKFace dataset which has around ~24,000 front
 **We saved both our models as h5 files and used them further in our Streamlit web-app.**
 
 ## **Conclusion**
-We were able to build the front end of the app successfully using Streamlit. We defined all the functions with all the necessary conditions and then proceeded to deploy the app on cloud for anyone to use.
+We were able to build the front end of the app successfully using Streamlit. But there is definitely a lot of scope for improvement in performance. We could have achieved a much better result if we were not bound by Google Colab's limited resources and if we could use all the images in the dataset in their original shape of 200x200 to train our model. But for now we defined all the functions with all the necessary conditions and then proceeded to deploy the app on cloud for anyone to use.
 **WEB-APP LINK:** [Face Detection with Age and Gender Prediction](https://share.streamlit.io/rishi5565/face-detection-with-age-and-gender-prediction/main/app.py)
 
 Data Source: [Link](https://www.kaggle.com/datasets/jangedoo/utkface-new)
