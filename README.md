@@ -5,6 +5,9 @@ In this project I'll be using the UTKFace dataset which has around ~24,000 front
 **WEB-APP LINK:** [Face Detection with Age and Gender Prediction](https://share.streamlit.io/rishi5565/face-detection-with-age-and-gender-prediction/main/app.py)
 
 
+![enter image description here](https://github.com/rishi5565/face-detection-with-age-and-gender-prediction/raw/main/EDA%20Images/demo.gif)
+
+
 ## **Project Overview**
 
 * Built a frontal face detection with gender and age prediction web-app from scratch on images taken from upload or camera and deployed to cloud for anyone to use.
