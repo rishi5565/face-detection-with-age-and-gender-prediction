@@ -6,10 +6,10 @@ from PIL import Image
 import streamlit as st
 st.set_page_config(page_title="Face Detection with Age and Gender Prediction", layout="wide")
 st.set_option('deprecation.showPyplotGlobalUse', False)
-import tensorflow as tf
+# import tensorflow as tf
 
-physical_devices = tf.config.list_physical_devices('GPU')
-tf.config.experimental.set_memory_growth(physical_devices[0], enable=True)
+# physical_devices = tf.config.list_physical_devices('GPU')
+# tf.config.experimental.set_memory_growth(physical_devices[0], enable=True)
 
 
 def get_img_and_predict(img):
