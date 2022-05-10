@@ -16,9 +16,9 @@ def get_img_and_predict(img):
   crop_faces = []
   age_list = []
   gender_list = []
-  face_classifier = cv2.CascadeClassifier("models\\haarcascade_frontalface_default.xml")
-  agemodel = load_model("models\\agemodel_densenet.h5")
-  genmodel = load_model("models\\genmodel_densenet.h5")
+  face_classifier = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+  agemodel = load_model("agemodel_densenet.h5")
+  genmodel = load_model("genmodel_densenet.h5")
   grayimg = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
   faces = face_classifier.detectMultiScale(grayimg, 1.3,5)
 
