@@ -11,6 +11,7 @@ In this project I'll be using the UTKFace dataset which has around ~24,000 front
 ## **Project Overview**
 
 * Built a frontal face detection with gender and age prediction web-app from scratch on images taken from upload or camera and deployed to cloud for anyone to use.
+* Used Haar Cascade Classification to detect the frontal view of faces in images.
 * Used Streamlit to build front-end interface of the web-app.
 * Cleaned, explored, engineered new features and manipulated the data to make it usable for our use case.
 * Used transfer learning with pre-trained model **DenseNet121** to train our model because it is smaller in size(33 MB) in comparison with other pre-trained models(making our web-app efficient) and also has optimal number of parameters(8.1M) and depth(242) which is perfect for our use case.
